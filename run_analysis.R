@@ -39,22 +39,27 @@ features<-select(features,featurename)
 xnames <- features[xindex][[1]]
 names(dataset) <- c(xnames,"activitylabel","subject")
 names(dataset)<- tolower(names(dataset))
-names(dataset) <- gsub("-","",names(dataset))
-names(dataset) <- gsub("\\(","",names(dataset))
-names(dataset) <- gsub("\\)","",names(dataset))
 
 ## 5.From the data set in step 4, creates a second, independent tidy data set 
 ## with the average of each variable for each activity and each subject.
 m <- ncol(dataset)
-activitydata <- split(dataset,dataset$activitylabel)
-activityaverage <- sapply(activitydata,function(x) colMeans(x[,1:(m-2)]))
-subjectdata <- split(dataset,dataset$subject)
-subjectaverage <- sapply(subjectdata,function(x) colMeans(x[,1:(m-2)]))
-colnames(activityaverage) <- paste0(colnames(activityaverage),"average")
-colnames(subjectaverage) <- paste0("subject",colnames(subjectaverage),"average")
-dataset2 <- cbind(activityaverage,subjectaverage)
-colnames(dataset2) <- tolower(colnames(dataset2))
-colnames(dataset2) <- gsub("_","",colnames(dataset2))
+activity <- dataset$activitylabel
+subject <- dataset$subject
+gp <- paste(activity,subject)
+dataset <- cbind(dataset,gp)
+splitdata <- split(dataset,gp)
+meandata <- t(sapply(splitdata,function(x) colMeans(x[,1:(m-3)])))
+splitnames <- strsplit(rownames(meandata)," ")
+n <- nrow(meandata)
+activityname<- vector()
+for(i in 1:n){
+        activityname[i] <- splitnames[[i]][1]
+}
+subjectname <- vector()
+for(i in 1:n){
+        subjectname[i] <- splitnames[[i]][2]
+}
+dataset2 <- cbind(activityname,subjectname,meandata)
 
 ## use write.table() with row.name=FALSE, save dataset2 into a text in the working directory
 write.table(dataset2,file="./dataset2.txt",row.name=FALSE,col.name=TRUE,sep="\t",quote=FALSE)
