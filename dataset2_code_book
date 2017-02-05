@@ -1,145 +1,331 @@
 Dataset2 Code Book - (Getting and cleaning data Assignment）
-layingaverage  10
-    average of each feature in the activity group "laying"
+activityname 20
+   names of activity labels:
+   walking
+   walking_upstairs
+   walkung_downstairs
+   sitting
+   standing
+   laying
+subjectname 2
+  sunject number 
+  int 1-30
+tbodyacc-mean()-x 10
+    average of the feature in the activity and subject group 
     -1.000000000~1.000000000, each row is the mean of a feature
 
-sittingaverage   10       
-    average of each feature in the activity group "sitting"
+tbodyacc-mean()-y 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+
+tbodyacc-mean()-z 10
+    average of the feature in the activity and subject group  
     -1.000000000~1.000000000, each row is the mean of a feature
     
-standingaverage 10
-    average of each feature in the activity group "standing"
+tbodyacc-std()-x 10
+    average of the feature in the activity and subject group  
     -1.000000000~1.000000000, each row is the mean of a feature
     
-walkingaverage     10
-    average of each feature in the activity group "walking"
+tbodyacc-std()-y 10
+    average of the feature in the activity and subject group 
     -1.000000000~1.000000000, each row is the mean of a feature
     
-walkingdownstairsaverage 10
-    average of each feature in the activity group "walkingdownstairs"
+tbodyacc-std()-z 10
+    average of the feature in the activity and subject group  
     -1.000000000~1.000000000, each row is the mean of a feature
     
-walkingupstairsaverage  10
-    average of each feature in the activity group "walkingupstairs"
+
+tgravityacc-mean()-x 10
+    average of the feature in the activity and subject group 
     -1.000000000~1.000000000, each row is the mean of a feature
     
-subject1average 10
-    average of each feature in the subject group "1"
-    -1.000000000~1.000000000, each row is the mean of a feature
 
-subject2average 10
-    average of each feature in the subject group "2"
+tgravityacc-mean()-y 10
+    average of the feature in the activity and subject group 
     -1.000000000~1.000000000, each row is the mean of a feature
-     
-subject3average 10
-    average of each feature in the subject group "3"
-    -1.000000000~1.000000000, each row is the mean of a feature
+    
 
-subject4average 
-    average of each feature in the subject group "4"
+tgravityacc-mean()-z 10
+    average of the feature in the activity and subject group  
     -1.000000000~1.000000000, each row is the mean of a feature
-         
-subject5average  10
-    average of each feature in the subject group "5"
-    -1.000000000~1.000000000, each row is the mean of a feature
+    
 
-subject6average  10
-    average of each feature in the subject group "6"
+tgravityacc-std()-x 10
+    average of the feature in the activity and subject group  
     -1.000000000~1.000000000, each row is the mean of a feature
-         
-subject7average  10
-    average of each feature in the subject group "7"
-    -1.000000000~1.000000000, each row is the mean of a feature
+    
 
-subject8average   10
-    average of each feature in the subject group "8"
+tgravityacc-std()-y 10
+    average of the feature in the activity and subject group 
     -1.000000000~1.000000000, each row is the mean of a feature
-        
-subject9average  10
-    average of each feature in the subject group "9"
-    -1.000000000~1.000000000, each row is the mean of a feature
+    
 
-subject10average   10
-    average of each feature in the subject group "10"
+tgravityacc-std()-z 10
+    average of the feature in the activity and subject group  
     -1.000000000~1.000000000, each row is the mean of a feature
-     
-subject11average 10
-    average of each feature in the subject group "11"
-    -1.000000000~1.000000000, each row is the mean of a feature
+    
 
-subject12average    10
-    average of each feature in the subject group "12"
+tbodyaccjerk-mean()-x 10
+    average of the feature in the activity and subject group 
     -1.000000000~1.000000000, each row is the mean of a feature
-      
-subject13average  10
-    average of each feature in the subject group "13"
-    -1.000000000~1.000000000, each row is the mean of a feature
+    
 
-subject14average    10
-    average of each feature in the subject group "14"
+tbodyaccjerk-mean()-y 10
+    average of the feature in the activity and subject group  
     -1.000000000~1.000000000, each row is the mean of a feature
-      
-subject15average  10
-    average of each feature in the subject group "15"
-    -1.000000000~1.000000000, each row is the mean of a feature
+    
 
-subject16average  10
-    average of each feature in the subject group "16"
+tbodyaccjerk-mean()-z 10
+    average of the feature in the activity and subject group  
     -1.000000000~1.000000000, each row is the mean of a feature
-       
-subject17average 10
-    average of each feature in the subject group "17"
-    -1.000000000~1.000000000, each row is the mean of a feature
+    
 
-subject18average   10
-    average of each feature in the subject group "18"
+tbodyaccjerk-std()-x 10
+    average of the feature in the activity and subject group  
     -1.000000000~1.000000000, each row is the mean of a feature
-       
-subject19average 10
-    average of each feature in the subject group "19"
-    -1.000000000~1.000000000, each row is the mean of a feature
+    
 
-subject20average    10
-    average of each feature in the subject group "20"
+tbodyaccjerk-std()-y 10
+    average of the feature in the activity and subject group  
     -1.000000000~1.000000000, each row is the mean of a feature
-      
-subject21average  10
-    average of each feature in the subject group "21"
-    -1.000000000~1.000000000, each row is the mean of a feature
+    
 
-subject22average   10
-    average of each feature in the subject group "22"
+tbodyaccjerk-std()-z 10
+    average of the feature in the activity and subject group 
     -1.000000000~1.000000000, each row is the mean of a feature
-       
-subject23average 10
-    average of each feature in the subject group "23"
-    -1.000000000~1.000000000, each row is the mean of a feature
+    
 
-subject24average   10
-    average of each feature in the subject group "24"
+tbodygyro-mean()-x 10
+    average of the feature in the activity and subject group  
     -1.000000000~1.000000000, each row is the mean of a feature
-       
-subject25average  10
-    average of each feature in the subject group "25"
-    -1.000000000~1.000000000, each row is the mean of a feature
+    
 
-subject26average   10
-    average of each feature in the subject group "26"
+tbodygyro-mean()-y 10
+    average of the feature in the activity and subject group  
     -1.000000000~1.000000000, each row is the mean of a feature
-       
-subject27average 10
-    average of each feature in the subject group "27"
-    -1.000000000~1.000000000, each row is the mean of a feature
+    
 
-subject28average    10
-    average of each feature in the subject group "28"
+tbodygyro-mean()-z 10
+    average of the feature in the activity and subject group 
     -1.000000000~1.000000000, each row is the mean of a feature
-      
-subject29average 10
-    average of each feature in the subject group "29"
-    -1.000000000~1.000000000, each row is the mean of a feature
+    
 
-subject30average 10
-    average of each feature in the subject group "30"
+tbodygyro-std()-x 10
+    average of the feature in the activity and subject group  
     -1.000000000~1.000000000, each row is the mean of a feature
+    
 
+tbodygyro-std()-y 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+
+tbodygyro-std()-z 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+
+tbodygyrojerk-mean()-x 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+
+tbodygyrojerk-mean()-y 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+
+tbodygyrojerk-mean()-z 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+
+tbodygyrojerk-std()-x 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+
+tbodygyrojerk-std()-y 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+
+tbodygyrojerk-std()-z 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+
+tbodyaccmag-mean() 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+
+tbodyaccmag-std() 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+
+tgravityaccmag-mean() 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+
+tgravityaccmag-std() 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+
+tbodyaccjerkmag-mean() 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+
+tbodyaccjerkmag-std() 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+
+tbodygyromag-mean() 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+
+tbodygyromag-std() 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+
+tbodygyrojerkmag-mean() 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+
+tbodygyrojerkmag-std() 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+
+fbodyacc-mean()-x 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+
+fbodyacc-mean()-y 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+
+fbodyacc-mean()-z 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+
+fbodyacc-std()-x 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+
+fbodyacc-std()-y 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+
+fbodyacc-std()-z 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+
+fbodyaccjerk-mean()-x 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+
+fbodyaccjerk-mean()-y 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+
+fbodyaccjerk-mean()-z 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+
+fbodyaccjerk-std()-x 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+
+fbodyaccjerk-std()-y 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+
+fbodyaccjerk-std()-z 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+
+fbodygyro-mean()-x 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+
+fbodygyro-mean()-y 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+
+fbodygyro-mean()-z 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+
+fbodygyro-std()-x 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+
+fbodygyro-std()-y 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+
+fbodygyro-std()-z 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+
+fbodyaccmag-mean() 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+
+fbodyaccmag-std() 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+
+fbodybodyaccjerkmag-mean() 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+
+fbodybodyaccjerkmag-std() 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+
+fbodybodygyromag-mean() 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+
+fbodybodygyromag-std() 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+
+fbodybodygyrojerkmag-mean() 10
+    average of the feature in the activity and subject group 
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
