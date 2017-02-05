@@ -1,0 +1,145 @@
+Dataset2 Code Book - (Getting and cleaning data Assignment）
+layingaverage  10
+    average of each feature in the activity group "laying"
+    -1.000000000~1.000000000, each row is the mean of a feature
+
+sittingaverage   10       
+    average of each feature in the activity group "sitting"
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+standingaverage 10
+    average of each feature in the activity group "standing"
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+walkingaverage     10
+    average of each feature in the activity group "walking"
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+walkingdownstairsaverage 10
+    average of each feature in the activity group "walkingdownstairs"
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+walkingupstairsaverage  10
+    average of each feature in the activity group "walkingupstairs"
+    -1.000000000~1.000000000, each row is the mean of a feature
+    
+subject1average 10
+    average of each feature in the subject group "1"
+    -1.000000000~1.000000000, each row is the mean of a feature
+
+subject2average 10
+    average of each feature in the subject group "2"
+    -1.000000000~1.000000000, each row is the mean of a feature
+     
+subject3average 10
+    average of each feature in the subject group "3"
+    -1.000000000~1.000000000, each row is the mean of a feature
+
+subject4average 
+    average of each feature in the subject group "4"
+    -1.000000000~1.000000000, each row is the mean of a feature
+         
+subject5average  10
+    average of each feature in the subject group "5"
+    -1.000000000~1.000000000, each row is the mean of a feature
+
+subject6average  10
+    average of each feature in the subject group "6"
+    -1.000000000~1.000000000, each row is the mean of a feature
+         
+subject7average  10
+    average of each feature in the subject group "7"
+    -1.000000000~1.000000000, each row is the mean of a feature
+
+subject8average   10
+    average of each feature in the subject group "8"
+    -1.000000000~1.000000000, each row is the mean of a feature
+        
+subject9average  10
+    average of each feature in the subject group "9"
+    -1.000000000~1.000000000, each row is the mean of a feature
+
+subject10average   10
+    average of each feature in the subject group "10"
+    -1.000000000~1.000000000, each row is the mean of a feature
+     
+subject11average 10
+    average of each feature in the subject group "11"
+    -1.000000000~1.000000000, each row is the mean of a feature
+
+subject12average    10
+    average of each feature in the subject group "12"
+    -1.000000000~1.000000000, each row is the mean of a feature
+      
+subject13average  10
+    average of each feature in the subject group "13"
+    -1.000000000~1.000000000, each row is the mean of a feature
+
+subject14average    10
+    average of each feature in the subject group "14"
+    -1.000000000~1.000000000, each row is the mean of a feature
+      
+subject15average  10
+    average of each feature in the subject group "15"
+    -1.000000000~1.000000000, each row is the mean of a feature
+
+subject16average  10
+    average of each feature in the subject group "16"
+    -1.000000000~1.000000000, each row is the mean of a feature
+       
+subject17average 10
+    average of each feature in the subject group "17"
+    -1.000000000~1.000000000, each row is the mean of a feature
+
+subject18average   10
+    average of each feature in the subject group "18"
+    -1.000000000~1.000000000, each row is the mean of a feature
+       
+subject19average 10
+    average of each feature in the subject group "19"
+    -1.000000000~1.000000000, each row is the mean of a feature
+
+subject20average    10
+    average of each feature in the subject group "20"
+    -1.000000000~1.000000000, each row is the mean of a feature
+      
+subject21average  10
+    average of each feature in the subject group "21"
+    -1.000000000~1.000000000, each row is the mean of a feature
+
+subject22average   10
+    average of each feature in the subject group "22"
+    -1.000000000~1.000000000, each row is the mean of a feature
+       
+subject23average 10
+    average of each feature in the subject group "23"
+    -1.000000000~1.000000000, each row is the mean of a feature
+
+subject24average   10
+    average of each feature in the subject group "24"
+    -1.000000000~1.000000000, each row is the mean of a feature
+       
+subject25average  10
+    average of each feature in the subject group "25"
+    -1.000000000~1.000000000, each row is the mean of a feature
+
+subject26average   10
+    average of each feature in the subject group "26"
+    -1.000000000~1.000000000, each row is the mean of a feature
+       
+subject27average 10
+    average of each feature in the subject group "27"
+    -1.000000000~1.000000000, each row is the mean of a feature
+
+subject28average    10
+    average of each feature in the subject group "28"
+    -1.000000000~1.000000000, each row is the mean of a feature
+      
+subject29average 10
+    average of each feature in the subject group "29"
+    -1.000000000~1.000000000, each row is the mean of a feature
+
+subject30average 10
+    average of each feature in the subject group "30"
+    -1.000000000~1.000000000, each row is the mean of a feature
+
